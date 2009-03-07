@@ -1,0 +1,5 @@
+#summary Here we'll keep a rolling list of article links that still fail readability:
+
+= Article Links That Fail Redability =
+
+* http://www.eweek.com/c/a/Web-Services-Web-20-and-SOA/Microsoft-Ponders-Web-Services-Effort/
