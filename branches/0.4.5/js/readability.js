@@ -17,9 +17,6 @@ var iframeLoads = 0;
 	
 	// Set up tools widget 
 	
-	// NOTE THE IMAGE URL'S HERE !!!!!!!!!!!!!!!!!
-	// NOTE THE IMAGE URL'S HERE !!!!!!!!!!!!!!!!!
-	// NOTE THE IMAGE URL'S HERE !!!!!!!!!!!!!!!!!
 	articleTools.id = "readTools";
 	articleTools.innerHTML = "\
 		<a href='#' onclick='return window.location.reload()' title='Reload original page' id='reload-page'>Reload Original Page</a>\
@@ -133,10 +130,12 @@ function grabArticle() {
 	// Add the footer and contents:
 	articleFooter.id = "readFooter";
 	articleFooter.innerHTML = "\
-		<a href='http://www.arc90.com'><img src='http://lab.arc90.com/experiments/readability/images/footer.png'></a>\
+		<a href='http://lab.arc90.com/experiments/readability'><img src='http://172.17.160.30/readability/images/footer-readability.png'></a>\
+		<a href='http://www.arc90.com'><img src='http://172.17.160.30/readability/images/footer-arc90.png'></a>\
+		<a href='http://www.twitter.com/arc90' class='footer-twitterLink'>Follow us on Twitter &raquo;</a>\
                 <div class='footer-right' >\
                         <span class='version'>Readability version " + readabilityVersion + "</span>\
-		</div>\
+				</div>\
 	";
 
 	articleContent.appendChild(topDiv);
