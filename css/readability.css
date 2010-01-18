@@ -104,8 +104,11 @@ span.version {
 #print-page{
     background: url(http://lab.arc90.com/experiments/readability/images/read-print.png) no-repeat left top;
 }
-#special-link{
-    background: url(http://lab.arc90.com/experiments/readability/images/read-special.png) no-repeat left top;
+a#special-link{
+    margin-top: 25px;
+    opacity: 0.6;
+    height: 47px !important;
+    background: url(../images/read-special.png) no-repeat left top !important;
 }
 #readTools a:hover{
     opacity: 1;
